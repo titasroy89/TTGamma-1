@@ -41,7 +41,7 @@
 #include <algorithm>
 #include <assert.h>
 //testing to see if fork works
-
+int x = 0;
 int ttgamma3::phoRegion(double absEta){
   int region = 0;
   if( absEta >= 1.0  ) region++;
